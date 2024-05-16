@@ -1,0 +1,34 @@
+
+body{
+    color: rgb(16, 51, 39);
+    text-align:center;
+    font-family: 'Courier New', Courier, monospace;
+}
+body {
+    color: rgb(16, 51, 39);
+    text-align: center;
+    font-family: Arial;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+}
+
+#container{
+    width: 70%;
+    padding: len;
+}
+#container {
+    width: 70%;
+    padding: 20px; /* Puedes ajustar este valor según sea necesario */
+    text-align: left;
+    border: 1px solid #ddd;
+    margin: 0 auto;
+}
+
+#container h1{
+    font-size: 20px;
+}
+
+#container h1 {
+    font-size: 20px;
+}

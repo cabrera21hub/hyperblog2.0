@@ -1,5 +1,53 @@
-body{
-    color: aqua;
+/* Estilos.css */
+
+body {
+    color: #333; /* Cambié el color del texto a un tono más oscuro */
+    font-family: "Arial", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+#container {
+    max-width: 800px; /* Limitar el ancho del contenido para que no se extienda demasiado */
+    margin: 0 auto; /* Centrar el contenido horizontalmente */
+    padding: 20px;
+}
+
+#header {
+    background-color: #f0f0f0; /* Cambiar el color de fondo del encabezado */
+    padding: 20px;
     text-align: center;
-    font-family: "Arial";
+    font-size: 24px;
+    margin-bottom: 20px; /* Agregar margen inferior para separar del contenido */
+}
+
+#content {
+    display: flex;
+    flex-direction: column;
+}
+
+#post {
+    background-color: #fff; /* Cambiar el color de fondo del área de publicación */
+    padding: 20px;
+    margin-bottom: 20px; /* Agregar margen inferior para separar de la imagen */
+    border-radius: 8px; /* Agregar bordes redondeados */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Agregar sombra */
+}
+
+#image-container {
+    text-align: center;
+}
+
+#image-container img {
+    max-width: 100%; /* Asegurarse de que la imagen no sea más ancha que su contenedor */
+    border-radius: 8px; /* Agregar bordes redondeados */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Agregar sombra */
+}
+#image-container img {
+    max-width: 10%; /* Asegurar que la imagen no sea más ancha que su contenedor */
+    max-height: 300px; /* Establecer una altura máxima para la imagen */
+    width: auto; /* Hacer que la anchura se ajuste automáticamente según la altura máxima */
+    height: auto; /* Hacer que la altura se ajuste automáticamente según la anchura máxima */
+    border-radius: 8px; /* Agregar bordes redondeados */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Agregar sombra */
 }
